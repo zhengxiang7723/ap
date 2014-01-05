@@ -1,0 +1,119 @@
+
+(ibus-daemon:1248): GLib-GIO-WARNING **: unknown control message type 1:2
+Backend     : gconf
+Integration : true
+Profile     : unity
+Adding plugins
+Initializing core options...done
+Initializing composite options...done
+Initializing opengl options...done
+Initializing decor options...done
+Initializing vpswitch options...done
+Initializing snap options...done
+Initializing mousepoll options...done
+Initializing resize options...done
+Initializing place options...done
+Initializing move options...done
+Initializing wall options...done
+Initializing grid options...done
+** Message: applet now removed from the notification area
+** Message: using fallback from indicator to GtkStatusIcon
+
+(nm-applet:1505): GdkPixbuf-CRITICAL **: gdk_pixbuf_scale_simple: assertion `dest_width > 0' failed
+I/O warning : failed to load external entity "/home/zhengxiang/.compiz/session/10e21f601bf6f6b67a138893393656943700000012180033"
+Initializing session options...done
+Initializing gnomecompat options...done
+Initializing animation options...done
+Initializing fade options...done
+Initializing unitymtgrabhandles options...done
+Initializing workarounds options...done
+Initializing scale options...done
+compiz (expo) - Warn: failed to bind image to texture
+Initializing expo options...done
+Initializing ezoom options...done
+
+(compiz:1473): GConf-CRITICAL **: gconf_client_add_dir: assertion `gconf_valid_key (dirname, NULL)' failed
+Initializing unityshell options...done
+Initializing staticswitcher options...done
+Setting Update "run_command_terminal_key"
+Setting Update "fullscreen_visual_bell"
+Setting Update "autoraise"
+Setting Update "autoraise_delay"
+Setting Update "toggle_window_shaded_key"
+Setting Update "fullscreen_visual_bell"
+Setting Update "main_menu_key"
+Setting Update "run_command_terminal_key"
+Setting Update "run_key"
+** Message: moving back from GtkStatusIcon to indicator
+
+** (gnome-screensaver:1690): WARNING **: 本会话中屏幕保护程序已经运行
+
+(gnome-settings-daemon:1268): GLib-CRITICAL **: g_variant_get_int32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_INT32)' failed
+WARNING:root:timeout reached, exiting
+** Message: No keyring secrets found for USTC_SZ/802-11-wireless-security; asking user.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/LanguageSelector/gtk/GtkLanguageSelector.py", line 62, in wrapper
+    res = f(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/LanguageSelector/gtk/GtkLanguageSelector.py", line 74, in wrapper
+    res = f(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/LanguageSelector/gtk/GtkLanguageSelector.py", line 1063, in on_button_apply_system_wide_languages_clicked
+    self.writeSystemLanguage(self.userEnvLanguage)
+  File "/usr/lib/python2.7/dist-packages/LanguageSelector/gtk/GtkLanguageSelector.py", line 783, in writeSystemLanguage
+    self.writeSysLanguageSetting(sysLanguage=languageString)
+  File "/usr/lib/python2.7/dist-packages/LanguageSelector/LanguageSelector.py", line 58, in writeSysLanguageSetting
+    iface.SetSystemDefaultLanguageEnv(sysLanguage)
+  File "/usr/lib/python2.7/dist-packages/dbus/proxies.py", line 70, in __call__
+    return self._proxy_method(*args, **keywords)
+  File "/usr/lib/python2.7/dist-packages/dbus/proxies.py", line 145, in __call__
+    **keywords)
+  File "/usr/lib/python2.7/dist-packages/dbus/connection.py", line 651, in call_blocking
+    message, timeout)
+dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Nautilus-Share-Message: Called "net usershare info" but it failed: “net usershare”返回错误 255：net usershare: cannot open usershare directory /var/lib/samba/usershares. Error 没有那个文件或目录
+Please ask your system administrator to enable user sharing.
+
+
+(gnome-settings-daemon:1268): Gdk-WARNING **: gnome-settings-daemon: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(nautilus:1497): Gdk-WARNING **: nautilus: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(gnome-fallback-mount-helper:1499): Gdk-WARNING **: gnome-fallback-mount-helper: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(bluetooth-applet:1503): Gdk-WARNING **: bluetooth-applet: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(polkit-gnome-authentication-agent-1:1509): Gdk-WARNING **: polkit-gnome-authentication-agent-1: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(nm-applet:1505): Gdk-WARNING **: nm-applet: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+gtk-window-decorator: Fatal IO error 11 (资源暂时不可用) on X server :0.0.
+
+(gdu-notification-daemon:1659): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(telepathy-indicator:1676): Gdk-WARNING **: telepathy-indicator: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(update-notifier:1745): Gdk-WARNING **: update-notifier: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(gnome-terminal:10955): Gdk-WARNING **: gnome-terminal: Fatal IO error 11 (资源暂时不可用) on X server :0.0.
+
+
+(gnome-language-selector:2186): Gdk-WARNING **: gnome-language-selector: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(update-manager:3516): Gdk-WARNING **: update-manager: Fatal IO error 11 (资源暂时不可用) on X server :0.
+
+
+(deja-dup-monitor:1929): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.39 of volume monitor org.gtk.Private.GduVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(deja-dup-monitor:1929): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.40 of volume monitor org.gtk.Private.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(deja-dup-monitor:1929): GVFS-RemoteVolumeMonitor-WARNING **: Owner :1.44 of volume monitor org.gtk.Private.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+** (zeitgeist-datahub:1689): WARNING **: zeitgeist-datahub.vala:227: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
